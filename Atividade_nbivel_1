@@ -1,0 +1,10 @@
+void main() {
+  String nome = 'Matheus';
+  int idade = 16;
+  double altura = 1.79;
+  bool trabalha = true;
+
+  print(
+    'Nome: $nome |Idade: $idade | Altura: $altura | Trabalhando: $trabalha',
+  );
+}
