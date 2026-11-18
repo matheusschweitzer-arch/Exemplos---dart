@@ -1,0 +1,8 @@
+void main() {
+  double n1 = 7.5;
+  double n2 = 8;
+  double n3 = 6.2;
+  double media = double.parse(((n1 + n2 + n3) / 3).toStringAsFixed(1));
+
+  print(media); // 7.2
+}
