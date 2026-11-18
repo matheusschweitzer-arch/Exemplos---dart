@@ -1,0 +1,10 @@
+void main() {
+  int n1 = 17;
+  int n2 = 5;
+  print('soma = ${n1 + n2}');
+  print('subtração = ${n1 - n2}');
+  print('multiplicação = ${n1 * n2}');
+  print('divisão = ${n1 / n2}');
+  print('divisão inteira = ${n1 ~/ n2}');
+  print('resto = ${n1 % n2}');
+}
