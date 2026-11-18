@@ -1,0 +1,6 @@
+void main() {
+  int totalmiutos = 200;
+  int horas = totalmiutos ~/ 60;
+  int minutos = totalmiutos % 60;
+  print('$horas h e $minutos min');
+}
