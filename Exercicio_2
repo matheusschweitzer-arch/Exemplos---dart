@@ -1,0 +1,9 @@
+void saudar(String nome) {
+  print("Bom dia, $nome!");
+}
+
+void main() {
+  saudar("Gustavo");
+  saudar("Maria");
+  saudar("Flávio");
+}
