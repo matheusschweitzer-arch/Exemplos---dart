@@ -1,0 +1,87 @@
+Dart
+
+add_circle
+New
+
+light_mode
+
+apps
+Explorer
+
+add
+
+chevron_left
+Selection deleted
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+⌄
+⌄
+⌄
+⌄
+⌄
+double media(double n1, double n2) {
+  return (n1 + n2) / 2;
+}
+
+String situacao(double nota) {
+  if (nota >= 7) {
+    return "Aprovado";
+  } else {
+    return "Reprovado";
+  }
+}
+
+void main() {
+  double media1 = media(8, 6);
+  print("Média: $media1 - ${situacao(media1)}");
+
+  double media2 = media(5, 6);
+  print("Média: $media2 - ${situacao(media2)}");
+}
+
+Run
+
+expand_more
+No problems
+
+chevron_right
+
+play_arrow
+Run
+
+stop
+Stop
+Média: 7 - Aprovado
+Média: 5.5 - Reprovado
+
+keyboard
+Privacy notice
+open_in_new
+Feedback
+open_in_new
+
+check
+Starting preview
+0.1s
+
+Dart 3.14.1
+tune
+Stable channel
