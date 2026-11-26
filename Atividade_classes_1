@@ -1,0 +1,21 @@
+class Aluno {
+  String nome;
+  String Curso;
+  int idade;
+
+  Aluno(this.nome, this.Curso, this.idade);
+
+  void mostrar() {
+    print('$nome faz o curso $Curso e tem $idade anos');
+  }
+}
+
+void main() {
+  List<Aluno> sala = [
+    Aluno('Matheus', 'Desenvolvimento de Sistemas', 16),
+    Aluno('Gustavo', 'Eletromecânica', 18),
+  ];
+  for (Aluno item in sala) {
+    item.mostrar();
+  }
+}
